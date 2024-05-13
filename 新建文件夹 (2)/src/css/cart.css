@@ -1,0 +1,298 @@
+.cart_types{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+.card_item {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 设置最大显示行数为2行 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+/* 紫色 */
+@media screen and (orientation: landscape) {
+
+    .title{
+        font-size: 1.5rem;
+    }
+    .cart_types{
+        margin-right: 10rem;
+    }
+    .cart_type{
+        height: 8rem;
+        width:8rem;
+    }
+    .cart_type_item{
+        font-size: 1.2rem;
+        margin-top: 0.8rem;
+    }
+    .navbar{
+        height: 3.5rem;
+    }
+    .off{
+        width: 14rem;
+        height: 14rem;
+        top: -1.5rem;
+        right: -1.5rem;
+    }
+
+    .cards{
+        height: 18rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .card{
+        padding: 1.8rem;
+    }
+    .card_img{
+        height: 14rem;
+        width: 14rem;
+    }
+    .card_right{
+        padding-right: 5rem;
+        padding-left: 0rem;
+        padding-top: 0.7rem;
+    }
+    .card_titles{
+        height: 10rem;
+    }
+    .card_title{
+        font-size: 2rem;
+    }
+    .card_item{
+        font-size: 1.1rem;
+    
+    }
+    .card_btn{
+        height: 3.4rem;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    /* 纵向布局样式 */
+    /* 在 CSS 文件中定义媒体查询粉色 */
+    @media screen and (max-width: 400px) {
+        .title{
+            font-size: 0.8rem;
+        }
+        .cards{
+            height: 9rem;
+        }
+        .cart_types{
+            margin-right: 1rem;
+        }
+        .cart_type{
+            height: 4.5rem;
+            width:4.5rem;
+            
+        }
+        .cart_type_item{
+            font-size: 0.7rem;
+            margin-top: 0.5rem;
+        }
+        .navbar{
+            height: 2rem;
+            /* background-color: aquamarine; */
+        }
+      
+        .off{
+            width: 6.5rem;
+            height: 6.5rem;
+            right: -0.75rem;
+        }
+        .card{
+            padding: 1rem;
+        }
+        .card_img{
+            height: 6.5rem;
+            width: 6.5rem;
+        }
+        .card_right{
+            padding-right: 2.5rem;
+            padding-left: 0.6rem;
+            padding-top: 0.5rem;
+            /* background-color: aquamarine; */
+        }
+        .card_titles{
+            height: 4rem;
+        }
+        .card_title{
+            font-size: 0.8rem;
+            margin-bottom: 0.1rem;
+        }
+        .card_item{
+            font-size: 0.6rem;
+        }
+        .card_btn{
+            height: 2rem;
+        }
+    }
+
+    /* 400px至600px之间黄色 */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+        .title{
+            font-size: 1rem;
+        }
+        .cards{
+            height: 9rem;
+        }
+        .cart_types{
+            margin-right: 1rem;
+        }
+        .cart_type{
+            height: 5.5rem;
+            width:5.5rem;
+        }
+        .cart_type_item{
+            font-size: 0.9rem;
+            margin-top: 0.8rem;
+        }
+        .navbar{
+            height: 2.2rem;
+            
+            /* background-color: aquamarine; */
+        }
+        .off{
+            width: 7rem;
+            height: 7rem;
+            right: -1rem
+        }
+        .card{
+            padding: 1rem;
+        }
+        .card_img{
+            height: 7rem;
+            width: 7rem;
+        }
+        .card_right{
+            padding-right: 2.5rem;
+            padding-left: 0.6rem;
+            padding-top: 0.5rem;
+        }
+        .card_titles{
+            height: 4rem;
+        }
+        .card_title{
+            font-size: 1rem;
+        }
+        .card_item{
+            font-size: 0.7rem;
+        }
+        .card_btn{
+            height: 2.3rem;
+        }
+    }
+
+    /* 600px至768px之间 绿色*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+
+        .title{
+            font-size: 1.5rem;
+        }
+        .cart_types{
+            margin-right: 2.5rem;
+        }
+        .cart_type{
+            height: 7.5rem;
+            width:7.5rem;
+        }
+        .cart_type_item{
+            font-size: 1.2rem;
+            margin-top: 0.8rem;
+        }
+        .off{
+            width: 9rem;
+            height: 9rem;
+        }
+        .cards{
+            height: 12rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .card{
+            padding: 1.5rem;
+        }
+        .card_img{
+            height: 9rem;
+            width: 9rem;
+        }
+        .card_right{
+            padding-right: 5rem;
+            padding-left: 0rem;
+            padding-top: 0.7rem;
+        }
+        .card_titles{
+            height: 5.6rem;
+        }
+        .card_title{
+            font-size: 1.8rem;
+        }
+        .card_item{
+            font-size: 0.9rem;
+        }
+        .card_btn{
+            height: 2.7rem;
+        }
+    }
+
+    /* 大于等于768px 灰色*/
+    @media screen and (min-width: 768px) {
+        .title{
+            font-size: 1.5rem;
+        }
+        .cart_types{
+            margin-right:4rem;
+        }
+        .cart_type{
+            height: 8rem;
+            width:8rem;
+        }
+        .cart_type_item{
+            font-size: 1.2rem;
+            margin-top: 0.8rem;
+        }
+        .navbar{
+            height: 2.5rem;
+        }
+        .off{
+            width: 10.5rem;
+            height: 11rem;
+            top: -1rem;
+            right: -1.25rem;
+        }
+        .cards{
+            height: 15rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .card{
+            padding: 1.5rem;
+        }
+        .card_img{
+            height: 11.5rem;
+            width: 11.5rem;
+        }
+        .card_right{
+            padding-right: 5rem;
+            padding-left: 0rem;
+            padding-top: 0.7rem;
+        }
+        .card_titles{
+            height: 7.2rem;
+            padding-left: 0.5rem;
+        }
+        .card_title{
+            font-size: 1.8rem;
+        }
+        .card_item{
+            font-size: 0.9rem;
+        }
+        .card_btn{
+            height: 3.3rem;
+        }
+    }
+}

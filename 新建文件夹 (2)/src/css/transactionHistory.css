@@ -1,0 +1,241 @@
+/* 紫色 */
+@media screen and (orientation: landscape) {
+    .transactionHistory_card {
+        width: 70%;
+        height: 13rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        /* background-color: antiquewhite; */
+
+    }
+
+    .transactionHistory_logo {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .transactionHistory_content {
+        padding-left: 0.5rem;
+        padding-right: 0rem;
+    }
+
+    .transactionHistory_time {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 1.3rem;
+        line-height: 3rem;
+    
+    }
+
+    .transactionHistory_title {
+        font-size: 1.7rem;
+        
+    }
+    .transactionHistory_pay{
+        padding-left: 3rem;
+    }
+    .transactionHistory_payWay {
+        color: rgba(0, 0, 0, 0.6);
+
+        font-size: 1.4rem;
+        
+        /* background-color: aquamarine; */
+    }
+
+    .transactionHistory_money {
+        font-size: 1.7rem;
+        /* background-color: beige; */
+    }
+}
+
+@media screen and (orientation: portrait) {
+    /* 纵向布局样式 */
+    /* 在 CSS 文件中定义媒体查询粉色 */
+    @media screen and (max-width: 400px) {
+        .transactionHistory_card {
+            width: 80%;
+            height: 7.5rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+        }
+
+        .transactionHistory_logo {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+
+        .transactionHistory_content {
+            padding-left: 0.5rem;
+            padding-right: 1rem;
+        }
+
+        .transactionHistory_time {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 0.7rem;
+            line-height: 1.25rem;
+        }
+
+        .transactionHistory_title {
+            font-size: 1rem;
+        }
+
+        .transactionHistory_payWay {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 0.8rem;
+            /* padding-top: 0.5rem; */
+            /* background-color: aquamarine; */
+        }
+        .transactionHistory_pay{
+            padding-left: 0rem;
+        }
+        .transactionHistory_money {
+            font-size: 1rem;
+            /* background-color: beige; */
+        }
+
+
+    }
+
+
+    /* 400px至600px之间黄色 */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+        .transactionHistory_card {
+            width: 80%;
+            height: 8rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+        }
+
+        .transactionHistory_logo {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+
+        .transactionHistory_content {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+
+
+        }
+
+        .transactionHistory_time {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 0.75rem;
+            line-height: 1.75rem;
+        }
+
+        .transactionHistory_title {
+            font-size: 1rem;
+        }
+
+        .transactionHistory_payWay {
+            color: rgba(0, 0, 0, 0.6);
+
+            font-size: 0.85rem;
+            /* padding-top: 0.5rem; */
+            /* background-color: aquamarine; */
+        }
+        .transactionHistory_pay{
+            padding-left: 0rem;
+        }
+        .transactionHistory_money {
+            font-size: 1rem;
+            /* background-color: beige; */
+        }
+    }
+
+    /* 600px至768px之间 绿色*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+        .transactionHistory_card {
+            width: 70%;
+            height: 10rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            /* background-color: antiquewhite; */
+
+        }
+
+        .transactionHistory_logo {
+            width: 4.5rem;
+            height: 4.5rem;
+        }
+
+        .transactionHistory_content {
+            padding-left: 0.5rem;
+            padding-right: 0rem;
+        }
+
+        .transactionHistory_time {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 1rem;
+            line-height: 2rem;
+        }
+
+        .transactionHistory_title {
+            font-size: 1.3rem;
+        }
+
+        .transactionHistory_payWay {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 1.1rem;
+            /* padding-top: 0.5rem; */
+            /* background-color: aquamarine; */
+        }  
+        .transactionHistory_pay{
+            padding-left: 0rem;
+        }
+
+        .transactionHistory_money {
+            font-size: 1.3rem;
+            /* background-color: beige; */
+        }
+    }
+
+    /* 大于等于768px 灰色*/
+    @media screen and (min-width: 768px) {
+        .transactionHistory_card {
+            width: 70%;
+            height: 11rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            /* background-color: antiquewhite; */
+
+        }
+
+        .transactionHistory_logo {
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .transactionHistory_content {
+            padding-left: 0.5rem;
+            padding-right: 0rem;
+        }
+
+        .transactionHistory_time {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 1.2rem;
+            line-height: 2.5rem
+        }
+
+        .transactionHistory_title {
+            font-size: 1.5rem;
+            
+        }
+        .transactionHistory_pay{
+            padding-left: 0rem;
+        }
+        .transactionHistory_payWay {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 1.3rem;
+            /* padding-top: 0.5rem; */
+            /* background-color: aquamarine; */
+        }
+
+        .transactionHistory_money {
+            font-size: 1.5rem;
+            /* background-color: beige; */
+        }
+    }
+}
