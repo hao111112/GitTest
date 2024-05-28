@@ -1,4 +1,0 @@
-public void main(){
-print(1)
-print(dev4)
-}
