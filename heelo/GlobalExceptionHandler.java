@@ -23,17 +23,15 @@ public class GlobalExceptionHandler {
 
     //继续抛出给AliAccessDeniedHandler处理
     @ExceptionHandler(AccessDeniedException.class)
-    public void defaultExceptionHandler(AccessDeniedException e) throws AccessDeniedException{
+    public void defaultExceptionHandler(AccessDeniedException e) throws AccessDenied{
         throw e;
     }
 
-    @ExceptionHandler(BusinessException.class)
-    public BaseResponse<?> businessExceptionHandler(BusinessException e) {
-        return ResultUtils.error(e.getCode(), e.getMessage());
-    }
+   
 
     @ExceptionHandler(RuntimeException.class)
     public BaseResponse<?> runtimeExceptionHandler(RuntimeException e) {
         return ResultUtils.error(ErrorCode.SYSTEM_ERROR, e.getMessage());
     }
+    print(1);
 }
