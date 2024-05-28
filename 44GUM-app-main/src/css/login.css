@@ -1,0 +1,56 @@
+.custom-toolbar {
+    --tw-bg-opacity: 1;
+    background-color: white;
+}
+
+.form-signup {
+    margin-bottom: 10px;
+}
+
+.form-signup-title {
+    margin-bottom: 6px;
+}
+
+.form-alter {
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity));
+    margin-top: 0.5rem
+        /* 8px */
+    ;
+    font-size: 0.8rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+/* 在手机上应用不同的样式 */
+@media only screen and (max-width: 450px) {
+    .phoneitem {
+        font-size: 10px;
+        /* color: blueviolet; */
+    }
+
+    .endtitle {
+        font-size: 11px;
+    }
+
+    .twophoneitem {
+        font-size: 7px;
+    }
+
+    .form-alter {
+        --tw-text-opacity: 1;
+        color: rgb(239 68 68 / var(--tw-text-opacity));
+        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+}
