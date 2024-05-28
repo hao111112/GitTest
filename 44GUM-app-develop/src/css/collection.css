@@ -1,0 +1,204 @@
+
+/* 紫色 */
+@media screen and (orientation: landscape) {
+    .collection-copy{
+        height: 2.75rem;
+        /* background-color: aquamarine; */
+     }
+     .collection-username{
+        font-size: 3.5rem;
+        /* background-color: rgb(92, 219, 219); */
+        margin-top: 2%;
+     }
+     .collection-qrcode{
+        width: 40%;
+        margin-top: 4%;
+     }
+     .collection-userVipCard{
+        font-size: 1.75rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+     }
+     .collection-line{
+        height: 0.12rem;
+        background-color: rgb(225, 220, 220);
+        /* background-color: antiquewhite; */
+     }
+     .collection-icon{
+        font-size: 1.1rem;
+        width: 6.5rem;
+        height: 6.5rem;
+        /* background-color: aqua; */
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        
+     }
+     .collection-icon-item{
+        margin-top: 1rem;
+     }
+}
+
+@media screen and (orientation: portrait) {
+    /* 纵向布局样式 */
+    /* 在 CSS 文件中定义媒体查询粉色 */
+    @media screen and (max-width: 400px) {
+     .collection-copy{
+        height: 2.5rem;
+        /* background-color: aquamarine; */
+     }
+     .collection-username{
+        font-size: 1.8rem;
+        /* background-color: rgb(92, 219, 219); */
+        margin-top: 5%;
+     }
+     .collection-qrcode{
+        width: 65%;
+        margin-top: 10%;
+     }
+     .collection-userVipCard{
+        font-size: 1.2rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+     }
+     .collection-line{
+        height: 0.1rem;
+        background-color: rgb(225, 220, 220);
+        /* background-color: antiquewhite; */
+     }
+     .collection-icon{
+        font-size: 0.7rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        /* background-color: aqua; */
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 12%;
+        
+     }
+     .collection-icon-item{
+        margin-top: 1rem;
+     }
+    }
+
+
+    /* 400px至600px之间黄色 */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+        .collection-copy{
+            height: 2.75rem;
+            /* background-color: aquamarine; */
+         }
+         .collection-username{
+            font-size: 2rem;
+            /* background-color: rgb(92, 219, 219); */
+            margin-top: 10%;
+         }
+         .collection-qrcode{
+            width: 65%;
+            margin-top: 15%;
+         }
+         .collection-userVipCard{
+            font-size: 1.3rem;
+            margin-top: 6%;
+            margin-bottom: 6%;
+         }
+         .collection-line{
+            height: 0.12rem;
+            background-color: rgb(225, 220, 220);
+            /* background-color: antiquewhite; */
+         }
+         .collection-icon{
+            font-size: 0.8rem;
+            width: 5rem;
+            height: 5rem;
+            /* background-color: aqua; */
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 20%;
+            
+         }
+         .collection-icon-item{
+            margin-top: 1rem;
+         }
+    }
+
+    /* 600px至768px之间 绿色*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+        .collection-copy{
+            height: 2.75rem;
+            /* background-color: aquamarine; */
+         }
+         .collection-username{
+            font-size: 2.75rem;
+            /* background-color: rgb(92, 219, 219); */
+            margin-top: 10%;
+         }
+         .collection-qrcode{
+            width: 65%;
+            margin-top: 10%;
+         }
+         .collection-userVipCard{
+            font-size: 1.5rem;
+            margin-top: 4%;
+            margin-bottom: 4%;
+         }
+         .collection-line{
+            height: 0.12rem;
+            background-color: rgb(225, 220, 220);
+            /* background-color: antiquewhite; */
+         }
+         .collection-icon{
+            font-size: 0.9rem;
+            width: 6rem;
+            height: 6rem;
+            /* background-color: aqua; */
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 12%;
+            
+         }
+         .collection-icon-item{
+            margin-top: 1rem;
+         }
+    }
+
+    /* 大于等于768px 灰色*/
+    @media screen and (min-width: 768px) {
+        .collection-copy{
+            height: 2.75rem;
+            /* background-color: aquamarine; */
+         }
+         .collection-username{
+            font-size: 3rem;
+            /* background-color: rgb(92, 219, 219); */
+            margin-top: 6%;
+         }
+         .collection-qrcode{
+            width: 60%;
+            margin-top: 8%;
+         }
+         .collection-userVipCard{
+            font-size: 1.75rem;
+            margin-top: 4%;
+            margin-bottom: 4%;
+         }
+         .collection-line{
+            height: 0.12rem;
+            background-color: rgb(225, 220, 220);
+            /* background-color: antiquewhite; */
+         }
+         .collection-icon{
+            font-size: 1.2rem;
+            width: 7rem;
+            height: 7rem;
+            /* background-color: aqua; */
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 10%;
+            
+         }
+         .collection-icon-item{
+            margin-top: 1rem;
+         }
+    }
+}

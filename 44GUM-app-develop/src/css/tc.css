@@ -1,0 +1,33 @@
+
+.tc_item{
+    margin-top: 0.25rem;
+}
+/* 紫色 */
+@media screen and (orientation: landscape) {
+   
+}
+
+@media screen and (orientation: portrait) {
+    /* 纵向布局样式 */
+    /* 在 CSS 文件中定义媒体查询粉色 */
+    @media screen and (max-width: 400px) {
+     
+
+    }
+
+
+    /* 400px至600px之间黄色 */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+      
+    }
+
+    /* 600px至768px之间 绿色*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+        
+    }
+
+    /* 大于等于768px 灰色*/
+    @media screen and (min-width: 768px) {
+      
+    }
+}

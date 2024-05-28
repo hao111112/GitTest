@@ -1,0 +1,498 @@
+/* 紫色 */
+@media screen and (orientation: landscape) {
+    .CartMerchant_header {
+        height: 24rem;
+    }
+
+    .CartMerchant_header_content {
+        padding-bottom: 0.2rem;
+    }
+
+    .CartMerchant_header_logo {
+        width: 8.5rem;
+        padding-left: 0.2rem;
+    }
+
+    .CartMerchant_header_title {
+        height: 8.9rem;
+        width: 60%;
+        padding-right: 0.5rem;
+        padding-left: 4rem;
+        font-size: 2.2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+        /* background-color: aquamarine; */
+    }
+
+    .CartMerchant_title {
+        height: 12rem;
+        padding: 1.5rem;
+        font-size: 3rem;
+    }
+
+    .CartMerchant_pay {
+        margin-top: 2rem;
+        height: 20rem;
+        padding: 1.5rem;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        /* 设置阴影的偏移、模糊度和颜色 */
+        font-size: 2.3rem;
+    }
+
+    .CartMerchant_pay_img {
+        width: 6rem;
+    }
+
+    .CartMerchant_pay_item {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-right: 0.2rem;
+        width: 45%;
+    }
+
+    .CartMerchant_pay_btn {
+        width: 3.8rem;
+
+    }
+
+    .CartMerchant_pay_number {
+        font-size: 2.5rem;
+    }
+
+    .CartMerchant_detail {
+        margin-top: 3.5rem;
+        height: 20rem;
+        padding: 1.5rem;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        /* 设置阴影的偏移、模糊度和颜色 */
+        font-size: 2.3rem;
+        /* background-color: aqua; */
+
+    }
+
+    .CartMerchant_buy {
+        height: 4.5rem;
+        /* background-color: rgb(87, 90, 87); */
+    }
+
+    .CartMerchant_buy_item {
+        font-size: 2rem;
+        line-height: 1.75rem;
+        /* color: rgb(118, 129, 117); */
+    }
+    .cartCategory-appbar{
+        height: 21rem;
+        /* background-color: aquamarine; */
+    }
+
+    .cartCategory-body {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 0rem;
+    }
+    .cartCategory-title{
+        font-size: 1.6rem
+    }
+    .cartCategory-end{
+        margin-bottom: 23rem;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    /* 纵向布局样式 */
+    /* 在 CSS 文件中定义媒体查询粉色 */
+    @media screen and (max-width: 400px) {
+        .CartMerchant_header {
+            height: 13rem;
+        }
+
+        .CartMerchant_header_content {
+            padding-bottom: 0.2rem;
+        }
+
+        .CartMerchant_header_logo {
+            width: 5rem;
+        }
+
+        .CartMerchant_header_title {
+            height: 4.8rem;
+            width: 60%;
+            padding-right: 0.5rem;
+            padding-left: 1.2rem;
+            font-size: 1.2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            /* background-color: aquamarine; */
+        }
+
+        .CartMerchant_title {
+            height: 7rem;
+            padding: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .CartMerchant_pay {
+            margin-top: 1.5rem;
+            height: 12rem;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 1.5rem;
+        }
+
+        .CartMerchant_pay_img {
+            width: 3rem;
+        }
+
+        .CartMerchant_pay_item {
+            font-size: 0.7rem;
+            line-height: 1.5rem;
+            margin-right: 0.2rem;
+            width: 45%;
+        }
+
+        .CartMerchant_pay_btn {
+            width: 2rem;
+
+        }
+
+        .CartMerchant_pay_number {
+            font-size: 1.1rem;
+        }
+
+        .CartMerchant_detail {
+            margin-top: 2.5rem;
+            height: 20rem;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 1.5rem;
+            /* background-color: aqua; */
+
+        }
+
+        .CartMerchant_buy {
+            height: 3rem;
+            /* background-color: pink; */
+
+        }
+
+        .CartMerchant_buy_item {
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+            /* color: rgb(184, 73, 73); */
+        }
+        .cartCategory-appbar{
+            height: 7.5rem;
+            /* background-color: aquamarine; */
+        }
+        .cartCategory-title{
+            font-size: 1.4rem
+        }
+
+        .cartCategory-body {
+            margin-left: 1.75rem;
+            margin-right: 1.75rem;
+            margin-top: 1rem;
+        }
+        .cartCategory-end{
+            margin-bottom: 10rem;
+        }
+    }
+
+    /* 400px至600px之间黄色 */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+        .CartMerchant_header {
+            height: 15rem;
+        }
+
+        .CartMerchant_header_content {
+            padding-bottom: 0.2rem;
+        }
+
+        .CartMerchant_header_logo {
+            width: 5.3rem;
+            padding-left: 0.2rem;
+        }
+
+        .CartMerchant_header_title {
+            height: 5.2rem;
+            width: 60%;
+            padding-right: 0.5rem;
+            padding-left: 1.2rem;
+            font-size: 1.2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            /* background-color: aquamarine; */
+        }
+
+        .CartMerchant_title {
+            height: 8rem;
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .CartMerchant_pay {
+            margin-top: 2rem;
+            height: 13rem;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 1.6rem;
+        }
+
+        .CartMerchant_pay_img {
+            width: 3rem;
+        }
+
+        .CartMerchant_pay_item {
+            font-size: 0.8rem;
+            line-height: 1.5rem;
+            margin-right: 0.2rem;
+            width: 45%;
+        }
+
+        .CartMerchant_pay_btn {
+            width: 2rem;
+
+        }
+
+        .CartMerchant_pay_number {
+            font-size: 1.1rem;
+        }
+
+        .CartMerchant_detail {
+            margin-top: 3.5rem;
+            height: 20rem;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 1.5rem;
+            /* background-color: aqua; */
+
+        }
+
+        .CartMerchant_buy {
+            height: 3.5rem;
+            /* background-color: rgb(236, 236, 151); */
+        }
+
+        .CartMerchant_buy_item {
+            font-size: 1.6rem;
+            line-height: 1.75rem;
+            /* color: rgb(207, 161, 161); */
+        }
+        .cartCategory-appbar{
+            height:10.5rem;
+            /* background-color: aquamarine; */
+        }
+
+        .cartCategory-body {
+            margin-left: 1.75rem;
+            margin-right: 1.75rem;
+            margin-top: 1rem;
+        }
+        .cartCategory-title{
+            font-size: 1.5rem
+        }
+        .cartCategory-end{
+            margin-bottom: 12rem;
+        }
+    }
+
+    /* 600px至768px之间 绿色*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+        .CartMerchant_header {
+            height: 15rem;
+        }
+
+        .CartMerchant_header_content {
+            padding-bottom: 0.2rem;
+        }
+
+        .CartMerchant_header_logo {
+            width: 5.7rem;
+            padding-left: 0.2rem;
+        }
+
+        .CartMerchant_header_title {
+            height: 5.2rem;
+            width: 60%;
+            padding-right: 0.5rem;
+            padding-left: 1.2rem;
+            font-size: 1.3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            /* background-color: aquamarine; */
+        }
+
+        .CartMerchant_title {
+            height: 9rem;
+            padding: 1rem;
+            font-size: 2rem;
+        }
+
+        .CartMerchant_pay {
+            margin-top: 2rem;
+            height: 15rem;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 1.7rem;
+        }
+
+        .CartMerchant_pay_img {
+            width: 4rem;
+        }
+
+        .CartMerchant_pay_item {
+            font-size: 1.2rem;
+            line-height: 2rem;
+            margin-right: 0.2rem;
+            width: 45%;
+        }
+
+        .CartMerchant_pay_btn {
+            width: 2.5rem;
+
+        }
+
+        .CartMerchant_pay_number {
+            font-size: 1.5rem;
+        }
+
+        .CartMerchant_detail {
+            margin-top: 3.5rem;
+            height: 20rem;
+            padding: 1rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 1.7rem;
+            /* background-color: aqua; */
+
+        }
+
+        .CartMerchant_buy {
+            height: 3.5rem;
+            font-weight: bold;
+            /* background-color: rgb(161, 236, 151); */
+        }
+
+        .CartMerchant_buy_item {
+            font-size: 1.6rem;
+            line-height: 1.75rem;
+            /* color: rgb(207, 161, 161); */
+        }
+        .cartCategory-appbar{
+            height: 15rem;
+            /* background-color: aquamarine; */
+        }
+
+        .cartCategory-body {
+            margin-left: 1.75rem;
+            margin-right: 1.75rem;
+            margin-top: 1rem;
+        }
+        .cartCategory-title{
+            font-size: 1.6rem
+        }
+        .cartCategory-end{
+            margin-bottom: 18rem;
+        }
+    }
+
+    /* 大于等于768px 灰色*/
+    @media screen and (min-width: 768px) {
+        .CartMerchant_header {
+            height: 20rem;
+        }
+
+        .CartMerchant_header_content {
+            padding-bottom: 0.2rem;
+        }
+
+        .CartMerchant_header_logo {
+            width: 7.5rem;
+            padding-left: 0.2rem;
+        }
+
+        .CartMerchant_header_title {
+            height: 7rem;
+            width: 60%;
+            padding-right: 0.5rem;
+            padding-left: 2.5rem;
+            font-size: 1.8rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4) !important;
+            /* background-color: aquamarine; */
+        }
+
+        .CartMerchant_title {
+            height: 11rem;
+            padding: 1.5rem;
+            font-size: 2.5rem;
+        }
+
+        .CartMerchant_pay {
+            margin-top: 2rem;
+            height: 18rem;
+            padding: 1.5rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 2.2rem;
+        }
+
+        .CartMerchant_pay_img {
+            width: 5rem;
+        }
+
+        .CartMerchant_pay_item {
+            font-size: 1.5rem;
+            line-height: 2rem;
+            margin-right: 0.2rem;
+            width: 45%;
+        }
+
+        .CartMerchant_pay_btn {
+            width: 3.5rem;
+
+        }
+
+        .CartMerchant_pay_number {
+            font-size: 2rem;
+        }
+
+        .CartMerchant_detail {
+            margin-top: 3.5rem;
+            height: 20rem;
+            padding: 1.5rem;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            /* 设置阴影的偏移、模糊度和颜色 */
+            font-size: 2.2rem;
+            /* background-color: aqua; */
+
+        }
+
+        .CartMerchant_buy {
+            height: 4.5rem;
+            /* background-color: rgb(87, 90, 87); */
+        }
+
+        .CartMerchant_buy_item {
+            font-size: 2rem;
+            line-height: 1.75rem;
+            /* color: rgb(149, 202, 142); */
+        }
+        .cartCategory-appbar{
+            height: 18rem;
+            /* background-color: aquamarine; */
+        }
+
+        .cartCategory-body {
+            margin-left: 3rem;
+            margin-right: 3rem;
+            margin-top: 0rem;
+        }
+        .cartCategory-title{
+            font-size: 1.6rem
+        }
+        .cartCategory-end{
+            margin-bottom: 20rem;
+        }
+    }
+}

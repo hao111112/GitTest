@@ -1,0 +1,157 @@
+.tc_item {
+    margin-top: 0.25rem;
+}
+
+/* 紫色 */
+@media screen and (orientation: landscape) {
+    .default-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .default-item {
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+        margin-bottom: 0.75rem;
+
+    }
+
+    .default-btns {
+        margin-top: 1.5rem;
+    }
+
+    .default-btn {
+        height: 3.5rem;
+        width: 60%;
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        margin-bottom: 1rem;
+    }
+    .default-checkbox{
+        width:2rem;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    /* 纵向布局样式 */
+    /* 在 CSS 文件中定义媒体查询粉色 */
+    @media screen and (max-width: 400px) {
+
+        .default-content {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .default-item {
+            font-size: 0.85rem;
+            line-height: 1.25rem;
+            margin-bottom: 0.75rem;
+
+        }
+
+        .default-btns {
+            margin-top: 1.5rem;
+        }
+
+        .default-btn {
+            height: 2.35rem;
+            width: 60%;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+        .default-checkbox{
+            width:1rem;
+        }
+
+    }
+
+
+    /* 400px至600px之间黄色 */
+    @media screen and (min-width: 400px) and (max-width: 600px) {
+        .default-content {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        .default-item {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+            margin-bottom: 0.75rem;
+
+        }
+
+        .default-btns {
+            margin-top: 1.5rem;
+        }
+
+        .default-btn {
+            height: 2.35rem;
+            width: 60%;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+        }
+        .default-checkbox{
+            width:1.1rem;
+        }
+
+    }
+
+    /* 600px至768px之间 绿色*/
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+        .default-content {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        .default-item {
+            font-size: 1.25rem;
+            line-height: 1.25rem;
+            margin-bottom: 0.75rem;
+
+        }
+
+        .default-btns {
+            margin-top: 1.5rem;
+        }
+
+        .default-btn {
+            height: 3rem;
+            width: 60%;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+        }
+        .default-checkbox{
+            width:2rem;
+        }
+    }
+
+    /* 大于等于768px 灰色*/
+    @media screen and (min-width: 768px) {
+        .default-content {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+        .default-item {
+            font-size: 1.5rem;
+            line-height: 1.25rem;
+            margin-bottom: 0.75rem;
+
+        }
+
+        .default-btns {
+            margin-top: 1.5rem;
+        }
+
+        .default-btn {
+            height: 3.5rem;
+            width: 60%;
+            font-size: 1.75rem;
+            line-height: 1.75rem;
+            margin-bottom: 1rem;
+        }
+        .default-checkbox{
+            width:2rem;
+        }
+    }
+}
