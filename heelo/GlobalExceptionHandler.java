@@ -22,16 +22,20 @@ import java.nio.file.AccessDeniedException;
 public class GlobalExceptionHandler {
 
     //继续抛出给AliAccessDeniedHandler处理
-    @ExceptionHandler(AccessDeniedException.class)
+    @ExceptionHandler(AccessDenied.class)
     public void defaultExceptionHandler(AccessDeniedException e) throws AccessDenied{
         throw e;
     }
 
-   
+    //继续抛出给AliAccessDeniedHandler处理
+    @ExceptionHandler(AccessDeniedException.class)
+    public void defaultExceptionHandler22(AccessDeniedException e) throws AccessDenied{
+        throw e;
+    }
 
     @ExceptionHandler(RuntimeException.class)
     public BaseResponse<?> runtimeExceptionHandler(RuntimeException e) {
         return ResultUtils.error(ErrorCode.SYSTEM_ERROR, e.getMessage());
     }
-    print(1);
+    print(3);
 }
