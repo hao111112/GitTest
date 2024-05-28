@@ -1,5 +1,4 @@
 public void main(){
-print(2)
+print(1)
 print(dev4)
-print(main)
 }
