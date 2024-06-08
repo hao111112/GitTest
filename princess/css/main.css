@@ -1,0 +1,514 @@
+@font-face{
+    font-family: 'TEXT';
+    src : url('../front/FZQiTi-S14T.ttf');
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background:url(../images/button/Subtract.svg) no-repeat;
+    background-size: 100%;
+    border: 1px red solid;  
+}
+
+
+
+.imgTitle{
+    width: 100%;
+    height: 120px;
+    background: url(../images/main/MainLine.svg) no-repeat;
+    background-size: 100%;
+}
+
+.box{
+    width: 1200px;
+    height: 1200px;
+}
+.box-content{
+    position: relative;
+    width: 100%; 
+    height:600px;
+    border: 1px red solid;
+
+}
+
+.box-title{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    width: 600px;
+    height: 170px;
+    z-index: 10;
+}
+
+.box-banner{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    width: 50%;
+     height: 400px;
+     background: url(../images/main/Banner.svg) no-repeat;
+     background-size: 100%;
+     z-index: 10;
+}
+.box-banner p{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    font-size: 16px;
+    color: black;
+    z-index: 10;
+}
+.box-banner h3{
+    width: 70%;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+}
+.box-banner img{
+    height: 70px;
+    width: 120px;
+    position: absolute;
+    bottom: 135px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+}
+
+.box-banner img:hover{
+    display: block;
+    cursor: grab;
+}
+
+.box-banner .phoneDiv{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 460px;
+    height: 50px;
+    top: 120px; 
+    left: 70px;
+    box-sizing: border-box;
+}
+
+.box-banner .phoneDiv ul{
+    margin-top: 10px;
+    height: 50px;
+    flex: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    opacity: 0.7;
+    background-color: #ffffff;
+}
+
+.box-banner .phoneDiv ul:hover{
+    overflow: visible;
+}
+
+.selectRegion{
+    float: left;
+    position: relative;
+    padding: 10px 10px 0;
+    font-size: 20px;
+    flex: 30%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+}
+.selectRegion:hover{
+    cursor: grab;
+    background-color: aqua;
+}
+
+.selectRegion:nth-child(1):after{
+    position: absolute;
+    right: 8px;
+    top: 20px;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #3D3D3D;
+    border-right: 2px solid #3D3D3D;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.phoneInput{
+    margin-left: 10px;
+    flex: 65%;
+    height: 100%;
+    font-size: 20px;
+    background-color: orange;
+}
+
+.phoneInput input{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    padding-left: 15px;
+    z-index: 10;
+}
+
+.agree{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 230px;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+  .agree input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-right: 8px;
+    margin: 0;
+    margin-right: 10px;
+  }
+
+  .agree input[type="checkbox"]:checked::before {
+    content: "✓";
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+  }
+
+
+  .modal-container {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; /* 初始隐藏弹窗 */
+  }
+  
+  .modal-content {
+    position: relative;
+    margin: 15% auto;
+    /* border: 1px solid #888; */
+    width: 700px;
+   height: 500px;
+  }
+  
+  .modal-content img{
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 11px;
+    right: 28px;
+    width: 30px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .fa-facebook-f{
+     position: absolute;
+     display: block;
+     top: 300px;
+     left: 220px;
+     width: 60px;
+     height: 80px;
+     background-color: pink;
+  }
+  .fa-instagram{
+    position: absolute;
+    display: block;
+    top: 300px;
+    left: 290px;
+    width: 60px;
+    height: 80px;
+
+ }
+ .fa-twitter{
+    position: absolute;
+    display: block;
+    top: 300px;
+    left: 355px;
+    width: 60px;
+    height: 80px;
+
+ }
+ .fa-youtube{
+    position: absolute;
+    display: block;
+    top: 300px;
+    left: 420px;
+    width: 60px;
+    height: 80px;
+
+ }
+
+
+.box1-content img{
+    position: absolute;
+    top: 400px;
+    left: 420px;
+    z-index: 10;
+    width: 30%;
+    height: 10%;
+}
+
+.box1-content img:hover{
+   cursor: grab;
+}
+
+.box1-content h3{
+    position: absolute;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+}
+
+.box1-content p{
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 80px;
+    color: black;
+    z-index: 10;
+}
+
+.RoleA{
+    position: absolute;
+    right: 70px;
+    top: 80px;
+    height: 400px; 
+    width: 400px;
+}
+.RoleB{
+    position: absolute;
+    left: 70px;
+    top: 80px;
+    height: 400px; 
+    width: 400px;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1200px;
+    height: 1200px;
+    border: 1px solid red;
+}
+.box2 .box-title2{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+}
+
+.box-content2{
+    position: absolute;
+    top: 200px;
+    height: 900px;
+    width: 80%; 
+}
+.box3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    border: 1px solid red;
+}
+.box3-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    background: url(../images/main/15pro.png) ;
+    background-size: 100%;
+    color: black;
+}
+.box3-content h3{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+.box3-content p{
+    position: absolute;
+    top: 450px;
+    left: 460px;
+    width: 400px;
+    height: 300px;
+    font-size: 14px;
+}
+
+.official{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    top: 75%;
+    left: 45%;
+    width: 15%;
+    height: 10%;
+}
+
+.official .linkBox{
+    display: flex;
+    flex-direction: row;
+    flex: 40%;
+    height: 25%;
+}
+
+.official .linkBox a {
+    width: 25%;
+    height: 100%;
+}
+.official .linkBox a:hover {
+    transform: translateY(-10%);
+}
+.official .linkBox a img{
+    width: 100%;
+    height: 100%;
+}
+
+.official .officialText{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    font-size: 20px;
+}
+
+
+.box4-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    background: url(../images/main/gameIntro.svg) no-repeat right;
+    background-size: 85%;
+}
+
+.box4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1200px;
+    height: 804px;
+    border: 1px solid red;
+}
+.box4 img{
+    width: 60%;
+    height:200px ;
+}
+.box4 .attention{
+     position: absolute;
+     top: 200px;
+     height: 600px;
+     width:90%;
+     border: 1px solid blue;
+     background: url(../images/main/Banner4.png) no-repeat center ;
+     box-sizing: 50%;
+}
+
+.box4 .attention .attention-ul{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 450px;
+    width:1000px;
+   
+}
+
+.box4 .attention .attention-ul li{
+    color: black;
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url(../images/footer/under.png) no-repeat center ;
+    box-sizing: 100%;
+}
+footer .service{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 200px;
+    height: 30px;
+  
+}
+footer .service a{
+    flex:1;
+    font-size: 14px;
+}
+footer .index{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+}
+
+footer .copyright{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+   width: 430px;
+   height: 25px;
+
+}

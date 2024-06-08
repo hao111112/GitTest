@@ -1,0 +1,17 @@
+  /* main */
+  @media(max-width: 768px){
+    .pc{
+        display: none;
+    }
+    .phone{
+        visibility: visible;
+    }
+}
+@media(min-width: 769px){
+    .pc{
+        visibility: visible;
+    }
+    .phone{
+        display: none;
+    }
+}

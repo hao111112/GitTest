@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.phonehead{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/header/headBg.svg) no-repeat center center;
+    background-size: cover;
+}
+
+.phonehead .nav{
+
+    height: 10vh;
+    width: 100vw;
+   background-color: #2d0f00;
+    margin: 0;
+}
+
+.phonehead .nav .menu{
+   float: left; 
+   width: 20%;
+    height: 90%;
+}
+.phonehead .nav .appointment{
+    float: right;
+    width: 40%;
+    height: 90%;
+}
+.phonehead .people{
+    position: absolute;
+    bottom: 10vh;
+    width: 100vw;
+    height: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.phonehead .logo{
+    position: absolute;
+    bottom: 5vh;
+    width: 65vw;
+    height: 50vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.phonehead .cloud{
+    position: absolute;
+    bottom: 0;
+   width: 100%;
+    height: 10vh;
+}
+/* phoneheader */
+/* main */
+main{
+    height: 300vh;
+    width: 100vw;
+    background:url(../images/main/MainBg.png)  ;
+    background-size: 100%;
+    
+}
+.imgTitle{
+    width: 100%;
+    height: 10vh;
+    background: url(../images/main/MainLine.svg) no-repeat;
+    background-size: 100%;
+}
+
+.beforeTitle{
+    height: 15vh;
+    width: 100%;
+    
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background:url(../images/button/Subtract.svg) no-repeat;
+    background-size: 100%;
+    border: 1px red solid;  
+}
+
+.box{
+    width: 90vw;
+    height: 100vh;
+}
+.box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    height:60vh;
+    border: 1px red solid;
+}
+
+.box-title{
+    position: absolute;
+    width: 80vw;
+    height: 20vh;
+    z-index: 999;
+}
+.box-banner{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+     height: 45%;
+     z-index: 10;
+}
+#commitPhone {
+    position: absolute;
+    height: 5%;
+    width: 30%;
+    top: 63%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+}
+
+ .box1-p{
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    font-size: 16px;
+    color: black;
+    z-index: 10;
+} 
+.box1-h3{
+    width: 70%;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+    font-size: 14px;
+} 
+.commit{
+    height: 10vh;
+    width: 15vw;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+}
+
+.commit:hover{
+    display: block;
+    cursor: grab;
+}
+
+ .phoneDiv{
+    display: flex;
+    position: absolute;
+
+    width: 70%;
+    height: 5%;
+    top: 50%; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.phoneDiv ul{
+    height: 100%;
+    flex: 30%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 1%;
+    opacity: 0.7;
+    background-color: #ffffff;
+    list-style: none;
+}
+
+ .phoneDiv ul:hover{
+    overflow: visible;
+}
+
+.selectRegion{
+    float: left;
+    position: relative;
+    font-size: 14px;
+    flex: 30%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+}
+.selectRegion:hover{
+    cursor: grab;
+    background-color: aqua;
+}
+
+.selectRegion:nth-child(1):after{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    content: '';
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    border-top: 1% solid #3D3D3D;
+    border-right: 1% solid #3D3D3D;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    
+}
+.agree{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 70%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    z-index: 20;
+}
+  
+  .agree input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 10%;
+    height: 10%;
+    border: 100% solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+    margin: 0;
+    margin-right: 6px;
+  }
+
+  .agree input[type="checkbox"]:checked::before {
+    content: "✓";
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+  }
+
+
+
+.phoneInput{
+    margin-left: 10%;
+    flex: 65%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.phoneInput input{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    padding-left: 15px;
+    z-index: 10;
+}
+
+.box1-content h3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 10;
+}
+
+.box1-content p{
+    position: absolute;
+    top: 42%;
+    width: 90%;
+    height: 40%;
+    left: 5%;
+    padding: 0 10%;
+    color: black;
+    z-index: 10;
+}
+.box1-content img{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 30%;
+    height: 20%;
+}
+
+
+.RoleA{
+    position: absolute;
+    right: -40%;
+    top: 7%;
+    height: 60%; 
+    width: 70%;
+}
+.RoleB{
+    position: absolute;
+    left: -30%;
+    top: 7%;
+    height: 70%; 
+    width: 70%;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 90vw;
+    height: 30vh;
+    border: 1px solid red;
+}
+.box-content2{
+    position: absolute;
+    height: 30vh;
+    width: 100%; 
+}
+.box3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 90vw;
+    height: 35vh;
+    border: 1px solid red;
+}
+.box3-content{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    border: 1px solid red;
+    color: #000;
+}
+.box3-content h3{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+.box3-content p{
+    position: absolute;
+    top: 450px;
+    left: 460px;
+    width: 400px;
+    height: 300px;
+    font-size: 14px;
+}
+
+.official{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    top: 67%;
+    left: 45%;
+    width: 25%;
+    height: 13%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.official .linkBox{
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    height: 25%;
+}
+
+.official .linkBox a {
+    width: 25%;
+    height: 100%;
+}
+.official .linkBox a:hover {
+    transform: translateY(-10%);
+}
+.official .linkBox a img{
+    width: 100%;
+    height: 100%;
+}
+
+.official .officialText{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+}
+
+
+.box4-content{
+    position: absolute;
+    left: 10%;
+    width: 90%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.box4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 90vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+.box4 img{
+    width: 100%;
+    height:20% ;
+}
+.box4 .attention{
+     position: absolute;
+     top: 20%;
+     height: 70%;
+     width:100%;
+}
+
+.box4  .attention-ul{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 50%;
+    width:90%;
+    font-size: 10px;
+}
+
+.box4 .attention-ul li{
+    color: black;
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background: url(../images/footer/under.png) no-repeat center ;
+    box-sizing: 100%;
+}
+footer .service{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 40%;
+    height: 20%;
+  
+}
+footer .service a{
+    flex:1;
+    font-size: 14px;
+}
+footer .index{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+footer .copyright{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+   width: 90%;
+   height: 5%;
+}
+
+.modal-container {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; /* 初始隐藏弹窗 */
+  }
+  
+  .modal-content {
+    position: absolute;
+    left: 3%;
+    margin: 5% auto;
+    /* border: 1px solid #888; */
+    width: 70%;
+   height: 30%;
+  }
+  
+  .modal-content img{
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .fa-facebook-f{
+     position: absolute;
+     display: block;
+     top: 300px;
+     left: 220px;
+     width: 60px;
+     height: 80px;
+
+  }
+  .fa-instagram{
+    position: absolute;
+    display: block;
+    top: 300px;
+    left: 290px;
+    width: 60px;
+    height: 80px;
+
+ }
+ .fa-twitter{
+    position: absolute;
+    display: block;
+    top: 300px;
+    left: 355px;
+    width: 60px;
+    height: 80px;
+
+ }
+ .fa-youtube{
+    position: absolute;
+    display: block;
+    top: 300px;
+    left: 420px;
+    width: 60px;
+    height: 80px;
+
+ }
+
+
+/* main */
+@media(max-width: 768px){
+    .pc{
+        display: none;
+    }
+    .phonehead{
+        visibility: visible;
+    }
+}
+@media(min-width: 769px){
+    .pc{
+        visibility: visible;
+    }
+    .phonehead{
+        display: none;
+    }
+}

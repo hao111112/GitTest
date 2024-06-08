@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.phonehead{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/header/headBg.svg) no-repeat center center;
+    background-size: cover;
+}
+
+.phonehead .nav{
+
+    height: 10vh;
+    width: 100vw;
+   background:url(../images/header/PX.png) no-repeat center;
+   box-sizing: cover;
+    margin: 0;
+}
+
+.phonehead .nav .menu{
+   float: left; 
+   width: 15%;
+    height: 90%;
+}
+.phonehead .nav .appointment{
+    float: right;
+    width: 30%;
+    height: 90%;
+}
+.phonehead .people{
+    position: absolute;
+    bottom: 10vh;
+    width: 100vw;
+    height: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.phonehead .logo{
+    position: absolute;
+    bottom: 5vh;
+    width: 65vw;
+    height: 50vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.phonehead .cloud{
+    position: absolute;
+    bottom: 0;
+   width: 100%;
+    height: 10vh;
+}
+/* phoneheader */
+/* main */
+main{
+    height: 1000vh;
+    width: 100vw;
+    background:url(../images/button/Subtract.svg) no-repeat;
+    background-size: cover;
+}
+.imgTitle{
+    width: 100%;
+    height: 10vh;
+    background: url(../images/main/MainLine.svg) no-repeat;
+    background-size: 100%;
+}
+
+.beforeTitle{
+    height: 15vh;
+    width: 100%;
+    background-color: pink;
+}
+
+
+/* main */
+@media(max-width: 768px){
+    .pc{
+        display: none;
+    }
+    .phonehead{
+        visibility: visible;
+    }
+}
+@media(min-width: 769px){
+    .pc{
+        visibility: visible;
+    }
+    .phonehead{
+        display: none;
+    }
+}
